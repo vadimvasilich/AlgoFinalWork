@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTree<T extends Comparable<T>> {
+public class BinaryRedBlackTree<T extends Comparable<T>> {
     Node root;
     public boolean add(T value) {
         if (root == null) {
